@@ -1,0 +1,12 @@
+ body {
+background-color: black;
+} 
+ 
+ img {
+height: 90px;
+width: 80px;
+}
+
+ .navbar-dark .navbar-nav .nav-link {
+color: yellow;
+}
