@@ -2,11 +2,15 @@
 background-color: black;
 } 
  
- img {
-height: 90px;
-width: 80px;
-}
+/* img {*/
+/*height: 90px;*/
+/*width: 80px;*/
+/*}*/
 
  .navbar-dark .navbar-nav .nav-link {
 color: yellow;
+}
+
+#mainNav {
+    padding: 80px;
 }
