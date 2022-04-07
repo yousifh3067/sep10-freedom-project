@@ -1,16 +1,51 @@
  body {
 background-color: black;
+text-align: center;
+/*font: black;*/
 } 
  
-/* img {*/
-/*height: 90px;*/
-/*width: 80px;*/
-/*}*/
-
- .navbar-dark .navbar-nav .nav-link {
-color: yellow;
+ img {
+height: 90px;
+width: 80px;
 }
 
-#mainNav {
-    padding: 80px;
+
+.box{
+position: relative;
+display: inline-block; 
+background-size: cover;
+margin-bottom: 120px;
+}
+    
+.box #text{
+position: absolute;
+z-index: 999;
+margin: 0 auto;
+left: 0;
+right: 0;
+top: 10%; 
+text-align: center;
+width: 60%;  
+color: #ffffff;
+    }
+
+.collapse navbar-collapse {
+     background-color: #D8FF00;
+ }
+ 
+.dental-logo {
+ height: 700px;
+ width: 950px;
+}
+
+/*.box #text{*/
+/* color: black;*/
+/*}*/
+
+ h1 {
+ color: white;
+}
+ 
+ h3 {
+ color: white;
 }
