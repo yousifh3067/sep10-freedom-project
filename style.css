@@ -14,7 +14,7 @@ width: 80px;
 position: relative;
 display: inline-block; 
 background-size: cover;
-margin-bottom: 120px;
+margin-bottom: 0px;
 }
     
 .box #text{
@@ -44,8 +44,38 @@ color: #ffffff;
 
  h1 {
  color: white;
+ margin-bottom: 110px;
 }
  
  h3 {
  color: white;
+ margin-bottom: 110px;
 }
+
+ p {
+  color: white;
+  margin-bottom: 65px;
+ }
+ 
+ li {
+  color: white;
+ }
+
+ h4 {
+  color: white;
+ }
+ 
+ .x-ray {
+  height: 200px;
+  width: 200px;
+ }
+ 
+ .laser {
+  height: 200px;
+  width: 200px;
+ }
+ 
+ .crown {
+  height: 200px;
+  width: 200px;
+ }
