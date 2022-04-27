@@ -45,6 +45,7 @@ color: #ffffff;
  h1 {
  color: white;
  margin-bottom: 110px;
+ /*margin-top: 110px;*/
 }
  
  h3 {
@@ -82,4 +83,21 @@ color: #ffffff;
  
  ul {
   color: white;
+ }
+ 
+ #txt {
+  color: black;
+ }
+ 
+ .navbar-brand {
+  padding: 10px;
+  text-align: center;
+ }
+ 
+ .context {
+  margin-top: 200px;
+ }
+ 
+ .col {
+  margin-bottom: 500px;
  }
