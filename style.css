@@ -2,6 +2,7 @@
 background-color: black;
 text-align: center;
 /*font: black;*/
+background-color: var(--background-color, pink)
 } 
  
  img {
@@ -50,7 +51,8 @@ color: #ffffff;
  
  h3 {
  color: white;
- margin-bottom: 110px;
+ margin-bottom: 10px;
+ margin: 10px;
 }
 
  p {
@@ -95,9 +97,40 @@ color: #ffffff;
  }
  
  .context {
-  margin-top: 200px;
+  margin-top: 50px;
  }
  
  .col {
   margin-bottom: 500px;
  }
+ 
+:root {
+--div-background-color: red;
+--text-color: black;
+--div-padding: 20px;
+--div-margin: 10px;
+}
+
+.child {
+  background-color: var(--div-background-color);
+  color: var(--text-color)
+}
+
+.one {
+  --div-background-color: blue;
+  --text-color: white;
+}
+
+.one-one {
+  margin: var( --div-margin);
+  padding: var(--div-padding);
+}
+
+.one-two {
+  margin: var( --div-margin);
+  padding: var(--div-padding);
+}
+
+.two-one child {
+ padding: 1000000000000px;
+}
