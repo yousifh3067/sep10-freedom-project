@@ -131,6 +131,6 @@ color: #ffffff;
   padding: var(--div-padding);
 }
 
-.two-one child {
- padding: 1000000000000px;
+.a {
+ color: red;
 }
